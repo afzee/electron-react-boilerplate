@@ -1,0 +1,14 @@
+.cursor {
+color: white;
+  animation: cursor-blink 1s steps(2) infinite;
+  /* animation: cursor-blink 1s steps(4) infinite; */
+}
+
+@keyframes cursor-blink {
+   0%, 50% {
+    opacity: 0;
+  }
+  50.01%, 100% {
+    opacity: 1;
+  }
+}

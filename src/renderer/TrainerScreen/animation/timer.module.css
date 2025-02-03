@@ -1,0 +1,7 @@
+.timer {
+    background-color: white;
+    border: solid transparent; /* Reduced border width */
+    border-radius: 50%;
+    background: linear-gradient(black, black) content-box no-repeat,
+                conic-gradient(oklch(0.606 0.25 292.717) var(--timer-percent), 0, oklch(0.373 0.034 259.733)) border-box;
+}
